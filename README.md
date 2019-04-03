@@ -38,10 +38,10 @@ Okay, enough talk. Time to run the program! I'm assuming the latest versions of 
 
 ## API endpoints
 - /getData -- Returns all the data in the table. Of questionable usage for larger tables so there's...
-- /getData/<BIN> -- Returns all the data about a given BIN. For rows with the unassigned BIN (X000000) this will return all info about unassigned BIN buildings.
-- /getData/Random/<Count> -- Returns Count number of random rows from the table. This is more useful than just one.
-- /getData/<Borough Number> -- Returns all the data about buildings from a Borough using the NYC's own codes, listed below.
-- /getData/Type/<LSTSTATTYPE> -- Returns information about buildings with a given last status type.
-- /getData/<Year> -- Returns the buildings constructed in a certain year.
-- /getData/Feature/<Feature Code> -- Returns all buildings matching a certain feature code.
-- /aggregate/<Operation>/Column -- Allows for any of the mySQL aggregation functions on a column, see below for a list of tested aggregation functions.
+- /getData/{BIN} -- Returns all the data about a given BIN. For rows with the unassigned BIN (X000000) this will return all info about unassigned BIN buildings.
+- /getData/Random/{Count} -- Returns Count number of random rows from the table. This is more useful than just one.
+- /getData/{Borough Number} -- Returns all the data about buildings from a Borough using the NYC's own codes, listed below.
+- /getData/Type/{LSTSTATTYPE} -- Returns information about buildings with a given last status type.
+- /getData/{Year} -- Returns the buildings constructed in a certain year.
+- /getData/Feature/{Feature Code} -- Returns all buildings matching a certain feature code.
+- /aggregate/{Operation}/{Column} -- Allows for any of the mySQL aggregation functions on a column, see below for a list of tested aggregation functions.
