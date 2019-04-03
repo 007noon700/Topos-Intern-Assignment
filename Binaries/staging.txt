@@ -1,8 +1,0 @@
-create table people (
-	id mediumint unsigned not null auto_increment,
-	name varchar(30) not null,
-    hot mediumint unsigned,
-	primary key (id)
-) engine = InnoDB default character set = utf8 collate = utf8_general_ci;
-
-LOAD DATA LOCAL INFILE 'Users/alexchow/go/src/github.com/007noon700/goAssgt/src/testbuilding.csv' INTO TABLE buildings FIELDS TERMINATED BY ',' LINES TERMINATED BY '\r\n' IGNORE 1 LINES (@dummy,BIN,@dummy,@dummy,@dummy,LSTSTATTYPE,@dummy,HEIGHTROOF,FEAT_CODE,GROUNDELEV,SHAPE_AREA,SHAPE_LEN,BASE_BBL,@dummy,@dummy);

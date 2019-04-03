@@ -1,8 +1,0 @@
-{
-    "Username": "root",
-    "Password": "administrator",
-    "DBName": "nycbuildings",
-    "TableName": "buildings",
-    "Host": "localhost",
-    "Port": 8086
-}
