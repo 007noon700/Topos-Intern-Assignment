@@ -19,19 +19,6 @@ type config struct{
 	Port int
 }
 
-// func setupConfig(){
-// config := config{}
-// file, err := os.Open("config.json") 
-// defer file.Close()
-// if err != nil {
-// 	panic(err)
-// 	}  
-// decoder := json.NewDecoder(file) 
-// err = decoder.Decode(&config) 
-// if err != nil {
-// 	panic(err) }
-// }
-
 
 func main() {
 	//I wanted the following in a helper function but irritatingly go doesn't work the same way I'm used to in like python or java so unfortunately it's just gonna
