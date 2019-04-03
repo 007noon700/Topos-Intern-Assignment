@@ -47,10 +47,38 @@ Okay, enough talk. Time to run the program! I'm assuming the latest versions of 
 - /aggregate/{Operation}/{Column} -- Allows for any of the mySQL aggregation functions on a column, see below for a list of tested aggregation functions.
 
 ## Borough Codes
+- 1 = Manhattan 
+- 2 = The Bronx
+- 3 = Brooklyn
+- 4 = Queens
+- 5 = Staten Island
 
 ## Status Types
+- Demolition
+- Alteration
+- Geometry
+- Initialization
+- Correction
+- Marked for Construction
+- Marked For Demolition
+- Constructed
 
 ## Feature Codes
+- 2100 = Building
+- 5100 = Building Under Construction
+- 5110 = Garage
+- 2110 = Skybridge
+- 1001 = Gas Station Canopy
+- 1002 = Storage Tank
+- 1003 = Placeholder (triangle for permitted bldg)
+- 1004 = Auxiliary Structure (non-addressable, not garage)
+- 1005 = Temporary Structure (e.g. construction trailer)
 
 ## Aggregation Functions
+- AVG to compute the average value of column_name
+- STD to compute the standard deviation of column_name
+- SUM to compute the sum
+- MIN to find the minimum value
+- MAX to fund the maximum value
+- COUNT to count the total number of entries having a not null entry in column
 
